@@ -1,0 +1,8 @@
+citHeader("To cite package diagL1 in publications use:")
+bibentry(bibtype="Manual",
+title = {StreetFoodAnalysis: Analysis of Street Food Sales},
+  author = {Alfredo Portinari Maranca},
+  year = {2024},
+  note = {R package 4.3.2 (2023-10-31 ucrt)},
+  url = {URL_do_seu_repositório_no_GitHub},
+}

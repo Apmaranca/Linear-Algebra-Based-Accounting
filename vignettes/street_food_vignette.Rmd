@@ -1,0 +1,44 @@
+
+
+```R
+---
+title: "Street Food Sales Analysis"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+---
+
+# Introdução
+Este vignette fornece uma visão geral do programa para análise de vendas de street food, incluindo a geração de dados sintéticos, cálculo de totais mensais e ajuste de matrizes lineares.
+
+# Instalação
+Para usar este pacote, primeiro, você precisa instalar os pacotes necessários:
+
+```R
+install.packages("tibble")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("Matrix")
+```
+
+# Uso Básico
+## Gerar Dados Sintéticos
+A função `generate_street_food_sales_data` pode ser usada para gerar dados sintéticos de vendas de street food. Veja um exemplo:
+
+
+library(StreetFoodAnalysis)
+
+# Gerar dados de janeiro a dezembro de 2022
+data <- generate_street_food_sales_data(start_date = '2022-01-01', end_date = '2022-12-31')
+
+# Exibir os primeiros registros dos dados
+head(data)
+```
+
+## Análise de Matrizes Lineares
+A função `main` realiza a análise de matrizes lineares, calculando totais mensais, encontrando a melhor ajuste usando mínimos quadrados e plotando os valores singulares.
+
+
+# Executar a análise principal
+main()

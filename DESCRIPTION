@@ -1,0 +1,10 @@
+Package: fplantmech
+Type: Package
+Title: Simulates simple cases of business singular value for tax planning
+Version: 0.1.0
+Author: Alfredo Portinari Maranca 
+Maintainer: Alfredo Portinari Maranca <apmaranca@gmail.com>
+Description: Analyze the mathematical properties of enterprises as Linear Algebra
+License: GPL-3.0 license
+Encoding: UTF-8
+LazyData: true
